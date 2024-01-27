@@ -1,1 +1,0 @@
-select title, price from titles where title not like 'su%' and title not like 'bu%';
