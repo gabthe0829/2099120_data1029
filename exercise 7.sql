@@ -1,0 +1,1 @@
+select title, price from titles where title rlike '^[a-j]';
