@@ -15,3 +15,6 @@ select title, price from titles where title not like 's%' and title not like 'b%
 
 -- Exercise 6
 select title, price from titles where title not like 's%' and title not like 'b%' and title like '__f%';
+
+-- Exercise 7
+select title, price from titles where title rlike '^[a-j]';
