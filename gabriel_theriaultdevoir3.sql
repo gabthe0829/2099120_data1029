@@ -5,7 +5,11 @@ select a.au_fname, a.au_lname, a.city, p.pub_id, p.pub_name, p.city from authors
 -- Exercise 3 : La liste des paires (auteur, editeur) demeurant dans la meme ville, incluant aussi les editeurs qui ne repondent pas a ce critere.
 select a.au_fname, a.au_lname, a.city, p.pub_id, p.pub_name, p.city from authors a right join publishers p on a.city=p.city; 
 -- Exercise 4 : La liste des paires (auteur, editeur) demeurant dans la meme ville, incluant les auteurs et les editeurs qui ne repondent pas a ce critere. 
-
+select a.au_fname, a.au_lname, a.city, p.pub_id, p.pub_name, p.city from authors a join publishers p on a.city=p.city
+union
+select a.au_fname, a.au_lname, a.city, p.pub_id, p.pub_name, p.city from authors a left join publishers p on a.city=p.city
+union
+select a.au_fname, a.au_lname, a.city, p.pub_id, p.pub_name, p.city from authors a right join publishers p on a.city=p.city; 
 -- Exercise 5 : Effectif (nombre) d'employes par niveau d'experience.
 
 -- Exercise 6 : Liste des employes par maison d'edition.
