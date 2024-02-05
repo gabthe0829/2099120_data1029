@@ -23,4 +23,4 @@ select e.fname, e.lname, e.pub_id, p.pub_name from employees e join publishers p
 -- Exercise 7 : Salaires horaires moyens des employes par maison d'edition
 select avg(salary), e.pub_id, p.pub_name from employees e join publishers p on e.pub_id=p.pub_id group by pub_id;
 -- Exercise 8 : Effectif (nombre) d'employees de niveau SEINIOR par maison d'edition
-
+select count(job_lvl) as "nombre d'employes seinior", e.pub_id, p.pub_name from employees e join publishers p on e.pub_id=p.pub_id where job_lvl = "seinior" group by e.pub_id;
