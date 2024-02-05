@@ -19,7 +19,7 @@ select count(job_lvl) from employees where job_lvl = "intermediare"
 union all
 select count(job_lvl) from employees where job_lvl = "seinior";
 -- Exercise 6 : Liste des employes par maison d'edition.
-
+select e.fname, e.lname, e.pub_id, p.pub_name from employees e join publishers p on e.pub_id=p.pub_id; 
 -- Exercise 7 : Salaires horaires moyens des employes par maison d'edition
 
 -- Exercise 8 : Effectif (nombre) d'employees de niveau SEINIOR par maison d'edition
