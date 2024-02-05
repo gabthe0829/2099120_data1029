@@ -13,7 +13,7 @@ select a.au_fname, a.au_lname, a.city, p.pub_id, p.pub_name, p.city from authors
 -- Exercise 5 : Effectif (nombre) d'employes par niveau d'experience.
 select count(job_lvl) as "niveau d'experience de stagiaire-seinior (de haut en bas)" from employees where job_lvl = "stagiaire" 
 union 
-select count(job_lvl) as 'nombres junior' from employees where job_lvl = "junior"
+select count(job_lvl) from employees where job_lvl = "junior"
 union 
 select count(job_lvl) from employees where job_lvl = "intermediare"
 union all
