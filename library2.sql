@@ -81,3 +81,11 @@ qty tinyint not null,
 payterms varchar(50) not null
 );
 
+create table discounts (
+discounttype varchar(50) null,
+stor_id tinyint not null references sales(stor_id),
+lowqty tinyint null,
+highqty int null,
+discount tinyint null
+);
+
