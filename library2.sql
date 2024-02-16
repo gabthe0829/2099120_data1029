@@ -89,3 +89,10 @@ highqty int null,
 discount tinyint null
 );
 
+create table roysched (
+title_id tinyint not null references titles(title_id),
+lorange tinyint null,
+hirange int null,
+royalty int null
+);
+
