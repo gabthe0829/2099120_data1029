@@ -31,6 +31,19 @@ pub_id tinyint not null references publishers(pub_id),
 hire_date date not null
 );
 
+create table titles (
+title_id tinyint not null auto_increment primary key,
+title varchar(100) not null,
+type varchar(50) not null,
+pub_id tinyint not null references publishers(pub_id),
+price int not null,
+advance int null,
+royalty int null,
+ytd_sales int null,
+notes varchar(100) null,
+pub_date date not null 
+);
+
 
 
 
