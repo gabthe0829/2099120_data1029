@@ -72,4 +72,12 @@ state varchar(50) not null,
 zip varchar(50) not null
 );
 
+create table sales (
+ord_num int not null auto_increment primary key,
+stor_id tinyint not null references sales(stor_id),
+title_id tinyint not null references titles(title_id),
+ord_date date not null,
+qty tinyint not null,
+payterms varchar(50) not null
+);
 
