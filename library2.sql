@@ -20,6 +20,17 @@ state varchar(50) null,
 country varchar(50) not null
 );
 
+create table employees (
+emp_id tinyint not null auto_increment primary key,
+fname varchar(50) not null,
+minit int not null,
+lname varchar(50) not null,
+job_id tinyint not null references jobs(job_id),
+job_lvl varchar(50) not null,
+pub_id tinyint not null references publishers(pub_id),
+hire_date date not null
+);
+
 
 
 
