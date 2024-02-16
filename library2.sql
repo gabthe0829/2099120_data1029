@@ -44,6 +44,18 @@ notes varchar(100) null,
 pub_date date not null 
 );
 
+create table authors (
+au_id tinyint not null auto_increment primary key,
+au_lname varchar(50) not null,
+au_fname varchar(50) not null,
+phone varchar(50) not null,
+address varchar(100) not null,
+city varchar(50) not null,
+state varchar(50) null,
+zip varchar(50) not null,
+contract int not null
+);
+
 
 
 
