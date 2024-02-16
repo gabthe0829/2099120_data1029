@@ -63,4 +63,13 @@ au_ord int not null,
 royaltyper int null
 );
 
+create table stores (
+stor_id tinyint not null auto_increment primary key,
+stor_name varchar(50) not null,
+stor_address varchar(100) not null,
+city varchar(50) not null,
+state varchar(50) not null,
+zip varchar(50) not null
+);
+
 
