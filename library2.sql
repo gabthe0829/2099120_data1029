@@ -56,6 +56,11 @@ zip varchar(50) not null,
 contract int not null
 );
 
-
+create table titleauthor (
+au_id tinyint not null references authors(au_id),
+title_id tinyint not null references titles(title_id),
+au_ord int not null,
+royaltyper int null
+);
 
 
