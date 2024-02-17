@@ -32,6 +32,20 @@ hire_date date not null,
 email varchar(50) null unique check(email rlike '@')
 );
 
+create table titles (
+title_id tinyint not null auto_increment primary key,
+title varchar(100) not null,
+type enum("Roman", "Politique", "Science", "Histoire") not null,
+pub_id smallint not null references publishers(pub_id),
+price float not null,
+advance float null,
+notes varchar(255) null,
+pub_date date not null 
+);
+
+
+
+
 
 
 
