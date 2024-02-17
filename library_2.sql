@@ -64,6 +64,17 @@ au_ord tinyint not null,
 royalty float null
 );
 
+create table stores (
+stor_id tinyint not null auto_increment primary key,
+stor_name varchar(50) not null,
+stor_address varchar(50) not null,
+city varchar(50) not null,
+state varchar(50) null,
+country varchar(50) not null
+);
+
+
+
 
 
 
