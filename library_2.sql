@@ -73,6 +73,13 @@ state varchar(50) null,
 country varchar(50) not null
 );
 
+create table sales (
+stor_id tinyint not null primary key references sales(stor_id),
+ord_num tinyint not null auto_increment primary key,
+title_id smallint not null primary key references titles(title_id),
+ord_date date not null,
+qty int not null
+);
 
 
 
