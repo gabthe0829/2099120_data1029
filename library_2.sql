@@ -17,7 +17,7 @@ pub_name varchar(50) not null,
 city varchar(50) not null,
 state varchar(50) null,
 country varchar(50) not null,
-email varchar(50) null unique check(email rlike '@')
+email varchar(50) not null unique check(email rlike '@')
 );
 
 create table employees (
@@ -29,7 +29,7 @@ lname varchar(50) not null,
 job_id smallint not null references jobs(job_id),
 pub_id smallint not null references publishers(pub_id),
 hire_date date not null,
-email varchar(50) null unique check(email rlike '@')
+email varchar(50) not null unique check(email rlike '@')
 );
 
 create table titles (
@@ -42,6 +42,22 @@ advance float null,
 notes varchar(255) null,
 pub_date date not null 
 );
+
+create table authors (
+au_id tinyint not null auto_increment primary key,
+au_lname varchar(50) not null,
+au_fname varchar(50) not null,
+phone varchar(20) not null unique check(phone rlike '+[0-9]'),
+address varchar(50) not null,
+city varchar(50) not null,
+state varchar(50) null,
+country varchar(50) not null,
+zip varchar(50) not null check(zip rlike'[A-Z][0-9][A-Z][0-9][A-Z][0-9]'),
+contract text not null,
+email varchar(50) not null unique check(email rlike '@')
+);
+
+
 
 
 
