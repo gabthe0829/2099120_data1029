@@ -20,6 +20,18 @@ country varchar(50) not null,
 email varchar(50) null unique check(email rlike '@')
 );
 
+create table employees (
+emp_id tinyint not null auto_increment primary key,
+emp_name varchar(50) not null,
+salary smallint not null,
+fname varchar(50) not null,
+lname varchar(50) not null,
+job_id smallint not null references jobs(job_id),
+pub_id smallint not null references publishers(pub_id),
+hire_date date not null,
+email varchar(50) null unique check(email rlike '@')
+);
+
 
 
 
