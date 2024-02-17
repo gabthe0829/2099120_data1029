@@ -57,7 +57,12 @@ contract text not null,
 email varchar(50) not null unique check(email rlike '@')
 );
 
-
+create table redactions (
+au_id tinyint not null primary key references authors(au_id),
+title_id tinyint not null primary key references titles(title_id),
+au_ord tinyint not null,
+royalty float null
+);
 
 
 
