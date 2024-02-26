@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2024-02-26T17:37:53.896Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.1.6" etag="wMvJFaRIqaasOqwDX1o7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-26T17:40:48.840Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="gCCVVfvjSp2HdqsNKK3t" version="23.1.7" type="github">
   <diagram name="Page-1" id="EpufIeRPTIUFH_CMFQEy">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="s7vL3vveaB1uRPRhzH0c-1" value="Candidat" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="280" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="s7vL3vveaB1uRPRhzH0c-2" value="+Attribute1&#xa;+Attribute2&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="s7vL3vveaB1uRPRhzH0c-1">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
