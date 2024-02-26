@@ -17,7 +17,14 @@
         <mxCell id="0rJ_2QVfIkxCbORpNlNr-3" value="Conjoint" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="400" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="0rJ_2QVfIkxCbORpNlNr-8" value="IUC&#xa;nom&#xa;prenom&#xa;date de naissance &#xa;pays&#xa;numero de telephone&#xa;numero de passport &#xa;statu matrimonial" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="0rJ_2QVfIkxCbORpNlNr-3">
+        <mxCell id="0rJ_2QVfIkxCbORpNlNr-8" value="IUC
+&#xa;nom
+&#xa;prenom
+&#xa;date de naissance 
+&#xa;pays
+&#xa;numero de telephone
+&#xa;numero de passport 
+&#xa;statu matrimonial" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="0rJ_2QVfIkxCbORpNlNr-3">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="0rJ_2QVfIkxCbORpNlNr-9" value="Couples" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
