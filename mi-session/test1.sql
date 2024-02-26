@@ -6,3 +6,5 @@ select p.name as 'designation', o.quantity as 'quantite' from product p join Ord
 union
 select p.name, o.quantity from product p, OrderLine o join invoice i on o.order_id=i.order_id where i.customer_id = 1;
 
+-- Exercise 2 #3
+select name from product p join supplier s on p.supplier_id=s.id where s.city = "Moncton";
