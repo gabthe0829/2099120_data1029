@@ -12,3 +12,14 @@ select concat(fname, " ", lname), job_lvl from employees where not job_lvl = 'SE
 
 -- Exercise 5
 select concat(fname, " ", lname), salary from employees where salary > (select avg(e.salary) from employees e join publishers p on e.pub_id=p.pub_id); 
+
+-- Exercise 6
+select concat(fname, " ", lname), min(salary), job_lvl from employees where job_lvl = 'STAGIAIRE'
+union
+select concat(fname, " ", lname), min(salary), job_lvl from employees where job_lvl = 'JUNIOR'
+union 
+select concat(fname, " ", lname), min(salary), job_lvl from employees where job_lvl = 'INTERMEDIARE'
+union
+select concat(fname, " ", lname), min(salary), job_lvl from employees where job_lvl = 'SEINIOR'
+union
+select concat(fname, " ", lname), min(salary), job_lvl from employees where job_lvl = 'MANAGER'; 
