@@ -1,0 +1,118 @@
+<<<<<<< HEAD
+<mxfile host="app.diagrams.net" modified="2024-02-26T19:17:52.752Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="BJDKbddLp9bHLmzgKmIg" version="23.1.7" type="device" pages="2">
+  <diagram name="Question 1" id="tzZNHYRDaiaBAaUdB7wg">
+    <mxGraphModel dx="1050" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0rJ_2QVfIkxCbORpNlNr-1" value="Candidat" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="70" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="0rJ_2QVfIkxCbORpNlNr-2" value="IUC&lt;br&gt;nom&lt;br&gt;prenom&lt;br&gt;date de naissance&amp;nbsp;&lt;br&gt;pays&lt;br&gt;numero de telephone&lt;br&gt;numero de passport&amp;nbsp;&lt;br&gt;statu matrimonial" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="0rJ_2QVfIkxCbORpNlNr-1">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0rJ_2QVfIkxCbORpNlNr-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0rJ_2QVfIkxCbORpNlNr-3" target="0rJ_2QVfIkxCbORpNlNr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0rJ_2QVfIkxCbORpNlNr-3" value="Conjoint" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="400" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="0rJ_2QVfIkxCbORpNlNr-8" value="IUC
+&#xa;nom
+&#xa;prenom
+&#xa;date de naissance 
+&#xa;pays
+&#xa;numero de telephone
+&#xa;numero de passport 
+&#xa;statu matrimonial" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="0rJ_2QVfIkxCbORpNlNr-3">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0rJ_2QVfIkxCbORpNlNr-9" value="Couples" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0rJ_2QVfIkxCbORpNlNr-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0rJ_2QVfIkxCbORpNlNr-2" target="0rJ_2QVfIkxCbORpNlNr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0rJ_2QVfIkxCbORpNlNr-12" value="Agent&amp;nbsp;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="70" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="0rJ_2QVfIkxCbORpNlNr-13" value="id&amp;nbsp;&lt;br&gt;nom&amp;nbsp;&lt;br&gt;prenom&lt;br&gt;dossiers&lt;br&gt;commentaires&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="0rJ_2QVfIkxCbORpNlNr-12">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0rJ_2QVfIkxCbORpNlNr-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0rJ_2QVfIkxCbORpNlNr-14" target="0rJ_2QVfIkxCbORpNlNr-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0rJ_2QVfIkxCbORpNlNr-14" value="Resultat" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="310" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="0rJ_2QVfIkxCbORpNlNr-15" value="nom&lt;br&gt;date&amp;nbsp;&lt;br&gt;expression ecrite&lt;br&gt;expression orale&lt;br&gt;ecoute&amp;nbsp;&lt;br&gt;lecture&lt;br&gt;reading&amp;nbsp;&lt;br&gt;writing&amp;nbsp;&lt;br&gt;listening&lt;br&gt;reading" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="0rJ_2QVfIkxCbORpNlNr-14">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0rJ_2QVfIkxCbORpNlNr-16" value="Tests" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0rJ_2QVfIkxCbORpNlNr-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0rJ_2QVfIkxCbORpNlNr-2" target="0rJ_2QVfIkxCbORpNlNr-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0rJ_2QVfIkxCbORpNlNr-19" value="Agent consultant" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0rJ_2QVfIkxCbORpNlNr-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0rJ_2QVfIkxCbORpNlNr-13" target="0rJ_2QVfIkxCbORpNlNr-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0rJ_2QVfIkxCbORpNlNr-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0rJ_2QVfIkxCbORpNlNr-2" target="0rJ_2QVfIkxCbORpNlNr-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HVwkA3ToBg3jbi6e71Jo" name="Question 2">
+    <mxGraphModel dx="1050" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uekw_PFQLK98quI4Jqhc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="bku9gaThShcjdmp-nZHs-1" target="fI0SZgMnQEEM90HwHsp2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bku9gaThShcjdmp-nZHs-1" value="Candidat" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="80" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bku9gaThShcjdmp-nZHs-2" value="IUC&amp;nbsp; &amp;nbsp; &amp;nbsp;cle primaire&lt;br&gt;nom&lt;br&gt;prenom&lt;br&gt;date de naissance&amp;nbsp;&lt;br&gt;pays&lt;br&gt;numero de telephone&lt;br&gt;numero de passport&amp;nbsp;&lt;br&gt;statu matrimonial" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="bku9gaThShcjdmp-nZHs-1">
+          <mxGeometry y="30" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="sW3NziaBknyrvodyR8ZR-1" value="Agent&amp;nbsp;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="170" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sW3NziaBknyrvodyR8ZR-2" value="id&lt;br&gt;IUC&amp;nbsp; &amp;nbsp; &amp;nbsp; cle etrangere&amp;nbsp;&amp;nbsp;&lt;br&gt;nom&amp;nbsp;&lt;br&gt;prenom&lt;br&gt;dossiers&lt;br&gt;commentaires&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="sW3NziaBknyrvodyR8ZR-1">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fI0SZgMnQEEM90HwHsp2-1" value="Conjoint" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="330" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fI0SZgMnQEEM90HwHsp2-2" value="IUC&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;cle etrangere&amp;nbsp;&lt;br&gt;nom&lt;br&gt;prenom&lt;br&gt;date de naissance&lt;br&gt;pays&lt;br&gt;numero de telephone&lt;br&gt;numero de passport&lt;br&gt;statu matrimonial" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="fI0SZgMnQEEM90HwHsp2-1">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uekw_PFQLK98quI4Jqhc-1" value="Resultat" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="360" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uekw_PFQLK98quI4Jqhc-2" value="IUC&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cle etrangere&amp;nbsp;&lt;br&gt;date&amp;nbsp;&lt;br&gt;expression ecrite&lt;br&gt;expression orale&lt;br&gt;ecoute&amp;nbsp;&lt;br&gt;lecture&lt;br&gt;reading&amp;nbsp;&lt;br&gt;writing&amp;nbsp;&lt;br&gt;listening&lt;br&gt;reading" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="uekw_PFQLK98quI4Jqhc-1">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uekw_PFQLK98quI4Jqhc-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="bku9gaThShcjdmp-nZHs-2" target="uekw_PFQLK98quI4Jqhc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uekw_PFQLK98quI4Jqhc-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="bku9gaThShcjdmp-nZHs-2" target="sW3NziaBknyrvodyR8ZR-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+=======
+<mxfile host="app.diagrams.net" modified="2024-02-26T19:03:24.772Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.1.7" etag="b4bJgWVxJs009EmimLoS" type="github">
+  <diagram name="Page-1" id="tzZNHYRDaiaBAaUdB7wg">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+>>>>>>> 9e6433058be2b709d75a5b758c8225a0b9809bb6
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
