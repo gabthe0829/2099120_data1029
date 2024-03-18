@@ -3,3 +3,6 @@ select concat(e.fname, " " , e.lname), p.pub_name, max(job_lvl) from employees e
 
 -- Exercise 2
 select concat(fname, " " , lname), salary from employees where salary > (select salary from employees where concat(fname, " ", lname) = 'Norbert Zongo');
+
+-- Exercise 3
+select concat(e.fname, " ", e.lname) , p.pub_name, p.country from employees e join publishers p on e.pub_id=p.pub_id where p.country = 'Canada';   
