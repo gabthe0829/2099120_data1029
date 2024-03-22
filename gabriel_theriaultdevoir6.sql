@@ -27,3 +27,6 @@ select concat(fname, " ", lname), min(salary), job_lvl from employees where job_
 -- Exercise 7
 select t.title, t.type, sum(s.qty) from titles t join sales s on t.title_id = s.title_id
 group by t.title, t.type order by sum(s.qty) desc;
+
+-- Exercise 8
+select t.title, t.price, sum(s.qty) from titles t join sales s on t.title_id = s.title_id where s.stor_id = (select st.stor_id from stores st join sales s on st.stor_id=s.stor_id);
