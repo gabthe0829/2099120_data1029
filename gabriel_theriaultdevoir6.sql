@@ -34,3 +34,6 @@ select t.title, t.price, sum(s.qty) from titles t join sales s on t.title_id = s
 -- Exercise 9
 select concat(a.au_fname, " ", a.au_lname) , count(*) from titleauthor ta join titles t on ta.title_id = t.title_id join sales s on t.title_id = s.title_id
 join authors a on ta.au_id = a.au_id group by a.au_id limit 5;
+
+-- Exercise 10
+select p.pub_name, avg(t.price) from titles t join publishers p on t.pub_id=p.pub_id group by p.pub_name;
