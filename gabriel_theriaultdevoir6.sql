@@ -37,3 +37,6 @@ join authors a on ta.au_id = a.au_id group by a.au_id limit 5;
 
 -- Exercise 10
 select p.pub_name, avg(t.price) from titles t join publishers p on t.pub_id=p.pub_id group by p.pub_name;
+
+-- Exercise 11
+select concat (a.au_fname, " ", a.au_fname), count(ta.title_id) from authors a join titleauthor ta on a.au_id=ta.au_id group by a.au_id order by count(ta.title_id) desc limit 3;
