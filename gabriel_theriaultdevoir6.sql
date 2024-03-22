@@ -30,3 +30,7 @@ group by t.title, t.type order by sum(s.qty) desc;
 
 -- Exercise 8
 select t.title, t.price, sum(s.qty) from titles t join sales s on t.title_id = s.title_id where s.stor_id = (select st.stor_id from stores st join sales s on st.stor_id=s.stor_id);
+
+-- Exercise 9
+select concat(a.au_fname, " ", a.au_lname) , count(*) from titleauthor ta join titles t on ta.title_id = t.title_id join sales s on t.title_id = s.title_id
+join authors a on ta.au_id = a.au_id group by a.au_id limit 5;
